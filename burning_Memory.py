@@ -3,6 +3,8 @@ from turtle import clear
 import webbrowser
 import os
 import time
+from colorama import init, Fore, Back
+init()
 banner = """
 
                                                                                                                                                                                       
@@ -19,7 +21,6 @@ banner = """
                                                                
 """
 print(banner)
-
 def menu():
     print("(1) Show and list all the vulnerable accounts.")
     print("(2) Github page!! ")
@@ -27,12 +28,9 @@ def menu():
     print("(4) Run yersinia")
     print("(6) Install the StockTools installer.")
     print("(10) Exit the toolkit")
-def option3():
-        print("launching the hub......")
-        webbrowser.open('https://youtu.be/dQw4w9WgXcQ', new=2)       
+
 menu()
 option = int(input("Enter the option : "))
-
 if option == 1:
         banner = """
 1.                                             
@@ -149,9 +147,36 @@ kru sareth
 07025152
  #----This database is going to be maintained manually because its hard not to----#
                  """ ;print(banner)      
-if option == 2: 
-             print("--------------------MY github page 😁------------------- https://github.com/Pheanoukma")
-if option == 5:
+if option == 3: 
+        banner =  """
+        
+        
+        kjj
+        """
+        magicword = int(input("  | _enter the magic num_ | : "))
+        if magicword == 69:
+                print("Access Granted")
+                banner = """
+                                                                            Access for the link has been granted
+                                              ]---------------------------------------------------------------------------------------------------
+                                              LINK : https://docs.google.com/spreadsheets/d/1CcMFMsE4ep9NQUfgKwyXGweVjCOx6OlT/edit#gid=712603995 ]
+                                              ]---------------------------------------------------------------------------------------------------
+                """  
+                print(banner)              
+        else :
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+         print( Fore.RED + "You didnt say the right magic word.")
+            
+if option == 2:
  webbrowser.open('https://github.com/Pheanoukma', new=2)
 if option == 4:
         print("Yersinia is installing.....")
